@@ -268,11 +268,11 @@
                           {b.tag && <span style={{ fontSize: 7, color: b.tag === "Louisiana native" ? TEAL : GREEN, fontWeight: 600, textTransform: "uppercase", letterSpacing: 0.5, background: b.tag === "Louisiana native" ? `${TEAL}15` : `${GREEN}15`, padding: "1px 5px", borderRadius: 4 }}>{b.tag}</span>}
                         </div>
                       </div>
-                      <HBar value={b.count} max={maxPop} color={i < 3 ? GOLD : i < 8 ? "rgba(241,196,15,0.5)" : "rgba(241,196,15,0.25)"} label={`${b.count}`} />
+                      <HBar value={b.count} max={maxPop} color={i < 3 ? GOLD : i < 8 ? "rgba(241,196,15,0.5)" : "rgba(241,196,15,0.25)"} label="" />
                     </div>
                   ))}
 
-                  <p style={{ fontSize: 9, color: "rgba(255,255,255,0.25)", margin: "12px 0 0", lineHeight: 1.4 }}>Number shows count of Fi dogs per breed in Louisiana.</p>
+                  <p style={{ fontSize: 9, color: "rgba(255,255,255,0.25)", margin: "12px 0 0", lineHeight: 1.4 }}>Ranked by number of Fi households per breed in Louisiana.</p>
                 </div>
               </Section>
 
